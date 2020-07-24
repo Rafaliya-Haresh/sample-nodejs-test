@@ -1,0 +1,12 @@
+{
+  "name": "MayankGupta",
+  "description": "TestData",
+  "main": "server.js",
+  "author": {
+    "name": "Mayank",
+    "email": "MayankGupta688@gmail.com"
+  },
+  "dependencies": {
+    "angular": "~1.4.8"
+  }
+}
