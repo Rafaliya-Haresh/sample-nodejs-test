@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <title>JavaScript Design Patterns and Concepts</title>
+
+    <meta name="description" content="Learn JavaScript Design Patterns and Object Oriented Concepts like Module Pattern, Prototype, Singleton Pattern, IIFE, Object Creation, Hoisting." />
+
+    <meta name="title" content="Learn JavaScript Design Patterns like Module, Prototype, Singleton, Object Creation, Hoisting, IIFE" />
+
+    <meta name="keywords" content="object oriented javascript,javascript design patterns,learn javascript,prototype pattern,closures,singleton pattern,iife,module pattern"/>
+
+    <link rel="stylesheet" href="css/shrink.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.min.css">
+
+
+  </head>
+  <body id="index-page">
+
+    <!-- Search -->
+    <div class="search-overlay"></div>
+    <div class="search">
+      <a href="" class="search-close"><i class="md md-close"></i></a>
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <h4>Just Start Typing Text and Press Enter</h4>
+          <form class="search-form">
+            <input type="text" id="search" name="search" class="text-center" />
+          </form> <!-- end .search-form -->
+        </div> <!-- end .col-sm-6 -->
+      </div> <!-- end .row -->
+    </div> <!-- end .row -->
+    <!-- Slide Out -->
+
+
+    <!-- Header -->
+    <header class="header">
+      <div class="top clearfix">
+        <a href="#section8" class="available"><i class="ion-ios-email-outline"></i><span>Available For Freelance ( +91-9711083089 )</span></a>
+        <div class="right-icons">
+          <a href="" class="open-search header-open-search"><i class="md md-search"></i></a>
+          <a href="" class="download"><i class="md md-file-download"></i></a>
+          <a href="" class="share"><i class="md md-more-vert"></i></a>
+        </div> <!-- end .right-icons -->
+
+      </div> <!-- end .top -->
+      <div class="bottom clearfix">
+        <div class="title"></div>
+
+        <a href="" class="responsive-menu-open">Menu <i class="fa fa-bars"></i></a>
+        <nav style="inline-block" class="main-nav">
+          <ul class="list-unstyled">
+            <li class="active"><a href="/">Home</a></li>
+          </ul>
+        </nav> <!-- end .main-nav -->
+      </div> <!-- end .bottom -->
+    </header> <!-- end .header -->
+    <div class="responsive-menu">
+      <a href="" class="responsive-menu-close">Close <i class="ion-android-close"></i></a>
+      <nav class="responsive-nav"></nav> <!-- end .responsive-nav -->
+    </div> <!-- end .responsive-menu -->
+
+    <!-- Section Navigation -->
+    <div class="section-nav">
+      <nav class="section1">
+      </nav>
+    </div> <!-- end .section-nav -->
+
+    <!-- Sections -->
+    <div class="sections" style="margin-bottom:200px;">
+      <div class="sections-wrapper clearfix">
+
+
+        <section>
+          <div class="container">
+            <b style="font-size: 25px;">Learn Object Oriented JavaScript and Design Patterns</b>
+            <div class="blog-posts masonry" id="blog-masonry">
+              <div class="blog-grid-sizer"></div>
+
+
+              <div class="blog-post image-left">
+                <div class="inner">
+                  <a href="https://medium.com/better-programming/https-medium-com-mayank-gupta-6-88-21-performance-optimizations-techniques-for-react-d15fa52c2349">
+                      <div class="image" style="background-image: url('images/JavaScript-logo.png');" alt="Node.js Single Threaded Event Loop Based Architecture"></div>
+                  </a>
+                  <div class="content" style="display: flex; flex-direction: column;">
+                    <h1><a href="https://medium.com/better-programming/https-medium-com-mayank-gupta-6-88-21-performance-optimizations-techniques-for-react-d15fa52c2349">21 React Optimization Techniques</a></h1>
+                    <p class="details">
+                      <b>Article is focussed on React Optimizations</b>. 
+                      Easy and Simple Techniques to Optimize the React Application. 
+                      <b>Covers most of the Interview Question regarding React.js</b> 
+                      Must read for every React Developer<br>
+                    </p>
+                  </div> <!-- end .content -->
+                </div> <!-- end .inner -->
+              </div> <!-- end .blog-post -->
+
+
+
+              <div class="blog-post">
+                <div class="inner">
+                  <div class="content">
+                    <h1><a href="https://medium.com/better-programming/angular-viewchild-and-viewchildren-fde2d252b9ab">
+                      ViewChild and ViewChildren...</a>
+                    </h1>
+                    <p class="details">
+                      This article is focused on understanding the usage of <b>ViewChild and ViewChildren</b> inside Angular components. 
+                      We will look at how to effectively use these functionalities to achieve your desired results.
+                    </p>
+                  </div> <!-- end .content -->
+                </div> <!-- end .inner -->
+              </div> <!-- end .blog-post -->
+
+
+              <div class="blog-post image-top">
+                <div class="inner">
+                  <a href="https://medium.com/better-programming/deep-and-shallow-copy-in-javascript-110f395330c5"><div class="image" style="background-image: url('images/node.jpg');"></div></a>
+                  <div class="content">
+                    <h1><a href="https://medium.com/better-programming/deep-and-shallow-copy-in-javascript-110f395330c5">JavaScript Deep and Shallow Copy</a></h1>
+                    <p class="details">
+                      <b>Scopes</b> 
+                      Often, to create an exact copy of an object in JavaScript, we need to create a new Object from existing objects. 
+                      There are various methods to achieve this. This article is focused on the different ways in which an object can be cloned/copied.
+                    </p>
+                  </div> <!-- end .content -->
+                </div> <!-- end .inner -->
+              </div> <!-- end .blog-post -->
+
+
+              <div class="blog-post image-top">
+                <div class="inner">
+                  <a href="https://medium.com/better-programming/working-with-react-pure-components-166ded26ae48">
+                    <div class="image" style="background-image: url('images/javascript.jpg');"></div>
+                  </a>
+                  <div class="content">
+                    <h1><a href="https://medium.com/better-programming/working-with-react-pure-components-166ded26ae48">React Pure Components</a></h1>
+                    <p class="details">
+                      <b>Pure Components </b>do not depend or modify the state of variables outside their scope. These are the building blocks of Functional Programming. 
+                      Before we get into the details of Pure Components in React, we need to understand the concept of Pure Functions in JavaScript.
+                    </p>
+                  </div> <!-- end .content -->
+                </div> <!-- end .inner -->
+              </div> <!-- end .blog-post -->
+
+
+              <div class="blog-post">
+                <div class="inner">
+                  <div class="content">
+                    <a href="https://medium.com/@@mayank.gupta.6.88/usememo-hook-in-react-d8d0eda6598a">
+                      <h1>“useMemo” Hook in React</h1>
+                      <p class="details">
+                        <b>React 16.8, introduced the concepts of Hooks</b> 
+                        One of the Hook added to React is “useMemo”. It enables Memoization in React Hook Functions.
+                        It is basically used to improve the performance of the React Application
+                      </p>
+                    </a>
+                  </div> <!-- end .content -->
+                </div> <!-- end .inner -->
+              </div> <!-- end .blog-post -->
+
+              
+
+              <div class="blog-post">
+                <div class="inner">
+                  <div class="content">
+                    <a href="https://medium.com/better-programming/handling-missing-data-in-python-using-scikit-imputer-7607c8957740">
+                      <h1>Impute Missing Values With SciKit’s Imputer </h1>
+                      <p class="details">
+                        <b>Missing values can lead to inconsistent results.</b>  
+                        We can either ignore the rows with missing data columns or substitute the values with some calculated output.
+                        When the dataset is too small, we can’t afford to lose the row data even if it contains missing columns. In those cases, we will look at substituting the column data with some values. 
+                      </p>
+                    </a>
+                  </div> <!-- end .content -->
+                </div> <!-- end .inner -->
+              </div> <!-- end .blog-post -->
+
+
+
+              <div class="blog-post">
+                <div class="inner">
+                  <div class="content">
+                    <a href="https://medium.com/swlh/javascript-inheritance-with-object-create-958b921e9d81">
+                      <h1>JavaScript Inheritance with “Object.create”</h1>
+                      <p class="details">
+                        <b>Using “Object.create” is the most basic way to create an Inheritance Model in JavaScript.</b> 
+                         Object.create can be used to create new object using the existing object as a prototype
+                      </p>
+                    </a>
+                  </div> <!-- end .content -->
+                </div> <!-- end .inner -->
+              </div> <!-- end .blog-post -->
+
+
+
+              <div class="blog-post image-left">
+                <div class="inner">
+                  <a href="https://medium.com/better-programming/working-with-ecmascript-2019-asynchronous-iteration-using-for-of-b9d3e14621ea">
+                    <div class="image" style="background-image: url('images/es6.jpg');"></div>
+                    <div class="content" style="display: flex; flex-direction: column;">
+                      <h1>Asynchronous Iteration Using “for-of”</h1>
+                      <p class="details">
+                        <b>The“for-of” loop</b> 
+                        is often used to iterate through the list of items inside a loop. 
+                        We can now use the “for-of” loop in JavaScript to iterate through the list of Promises and provide the 
+                        value received when the Promise is resolved.
+                      </p>
+                    </div> <!-- end .content -->
+                  </a>
+                </div> <!-- end .inner -->
+              </div> <!-- end .blog-post -->
+
+
+              <div class="blog-post">
+                <div class="inner">
+                  <div class="content">
+                    <a href="https://medium.com/better-programming/the-basics-of-javascript-generators-f89c9b0e8d72">
+                      <h1>Basics of JavaScript Generators</h1>
+                      <p class="details">
+                        <b>ES6 generator functions</b> are those that can stop their execution in the middle and resume execution further from the same point. 
+                        These functions do not return a single value; instead, they’re capable of returning multiple values. They’re based on the concept of iterators.
+                      </p>
+                    </a>
+                  </div> <!-- end .content -->
+                </div> <!-- end .inner -->
+              </div> <!-- end .blog-post -->
+
+
+              <div class="blog-post image-left">
+                <div class="inner">
+                  <a href="https://medium.com/better-programming/https-medium-com-mayank-gupta-6-88-react-useeffect-hooks-in-action-2da971cfe83f">
+                    <div class="image" style="background-image: url('images/JavaScript-logo.png');" alt="IIFE Immediately Invoked Function Expression JavaScript"></div>
+                  
+                    <div class="content" style="display: flex; flex-direction: column">
+                      <h1>React useEffect Hooks</h1>
+                      <p class="details">
+                        <b>Hooks are the new features</b> of React 16.8. We can create state variables and other features of React without using Class-Based Components. Hooks are used for Function Components.
+                        It takes a function as input, which is executed after the initial rendering, as well as re-rendering, of the component.
+                      </p>
+                    </div> <!-- end .content -->
+                  </a>
+                </div> <!-- end .inner -->
+              </div> <!-- end .blog-post -->
+
+
+              <div class="blog-post">
+                <div class="inner">
+                  <div class="content">
+                    <h1><a href="https://medium.com/better-programming/introduction-to-react-hooks-e0102c038bf1">Introduction to React Hooks</a></h1>
+                    <p class="details">
+                      <b>React Hooks</b> is the latest addition to React in Version 16.8.0, and many React developers are excited about this addition.
+                      We’re going to talk about the State Hook that enables users to create state variables without classes.
+                    </p>
+                  </div> <!-- end .content -->
+                </div> <!-- end .inner -->
+              </div> <!-- end .blog-post -->
+
+
+              <div class="blog-post image-left">
+                <div class="inner">
+                  <a href="https://medium.com/better-programming/introduction-to-reacts-higher-order-components-hocs-c42182fb634">
+                    <div class="image" style="background-image: url('images/JavaScript-logo.png');" alt="IIFE Immediately Invoked Function Expression JavaScript"></div>
+                    <div class="content" style="display: flex; flex-direction: column;">
+                      <h1>React’s Higher-Order Components</h1>
+                      <p class="details">
+                        <b>Higher-Order Function</b> is one that takes a function as an input parameter or returns a new function as output. 
+                        In the context of React, higher-order components (HOCs) are the components that take a component as input and return another component as output.
+                      </p>
+                    </div> <!-- end .content -->
+                  </a>
+                </div> <!-- end .inner -->
+              </div> <!-- end .blog-post -->
+
+
+              <div class="blog-post image-left">
+                <div class="inner">
+                  <a href="https://medium.com/better-programming/introduction-to-rxjs-3f17e1009527">
+                    <div class="image" style="background-image: url('images/JavaScript-logo.png');" alt="Node.js Single Threaded Event Loop Based Architecture"></div>
+                  
+                    <div class="content" style="display: flex; flex-direction: column;">
+                      <h1>Node.js Architecture</h1>
+                      <p class="details">
+                        <b>Node.js is Single Threaded Event Loop Architecture</b>. This Article shall enable you to understand the basic Architecture of Node.js, it also focusses on <b>"How Node.js is Different from other Languages"</b><br>
+                        <button class="preview" style="display: none" onclick="openPreview('iifeDialog')">Preview</button>
+                      </p>
+                    </div> <!-- end .content -->
+                  </a>
+                </div> <!-- end .inner -->
+              </div> <!-- end .blog-post -->
+
+
+              <div class="blog-post image-left">
+                <div class="inner">
+                  <a href="https://levelup.gitconnected.com/creating-custom-observable-with-rxjs-379692f08f76">
+                    <div class="image" style="background-image: url('images/JavaScript-logo.png');" alt="Node.js Single Threaded Event Loop Based Architecture"></div>
+                    <div class="content" style="display: flex; flex-direction: column;">
+                      <h1>Introduction to the RxJS Custom Observable</h1>
+                      <p class="details">
+                        <b>Observables </b>are the Objects which maintain a list of dependents called Observers, who are notified about any state changes in the Observable.
+                        For each state change in Observable, a method is called on the Observer. Observers subscribe to the Observable and respond to events.
+                      </p>
+                    </div> <!-- end .content -->
+                  </a>
+                </div> <!-- end .inner -->
+              </div> <!-- end .blog-post -->
+
+
+              <div class="blog-post image-top">
+
+                <a href="https://levelup.gitconnected.com/data-hiding-with-javascript-module-pattern-62b71520bddd">
+                  <div class="inner">
+                    <a href="/"><div class="image" style="background-image: url('images/javascript.jpg');"></div></a>
+                    <div class="content">
+                      <h1>JavaScript Object Creation</h1>
+                      <p class="details">
+                        <b>Objects can be created</b> in different ways. In the following article we shall be learning about the different ways in which they can be created and associated advantages and disadvantages.
+                      </p>
+                    </div> <!-- end .content -->
+                  </div> <!-- end .inner -->
+                </a>
+              </div> <!-- end .blog-post -->
+
+
+			  
+			        <div class="blog-post">
+                <div class="inner">
+                  <div class="content">
+                    <h1><a href="https://www.codeproject.com/Articles/483055/XML-Serialization-and-Deserialization-Part">C# Serialization Basics</a></h1>
+                    <p class="details">
+                      <b>Serialization</b> is a process by which an object's state is transformed in some serial data format, such as XML or binary format. Deserialization on the other hand is used to convert the byte of data, such as XML or binary data, to object type.
+                    </p>
+                  </div> <!-- end .content -->
+                </div> <!-- end .inner -->
+              </div> <!-- end .blog-post -->
+
+			  
+			        <div class="blog-post">
+                <div class="inner">
+                  <div class="content">
+                    <h1><a href="https://www.codeproject.com/Articles/487571/XML-Serialization-and-Deserialization-Part">C# Deserialization Basics</a></h1>
+                    <p class="details">
+                      <b>Deserialization</b> is used to convert bytes of data, such as XML or binary data, to "Object" type. An XML file can be reconverted back to an Object using deserialization. 
+                    </p>
+                  </div> <!-- end .content -->
+                </div> <!-- end .inner -->
+              </div> <!-- end .blog-post -->
+
+
+
+
+            </div>
+          </div> <!-- end .container -->
+        </section> <!-- end #section1 -->
+
+
+      </div> <!-- end .sections-wrapper -->
+    </div> <!-- end .sections -->
+
+    <div id="iifeDialog" title="Basic dialog">
+      <p></p>
+    </div>
+
+    <script defer src="js/jquery-1.11.2.min.js"></script>
+    <script defer src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script defer src="js/bootstrap.min.js"></script>
+    <script defer src="js/isotope.pkgd.min.js"></script>
+    <script defer src="js/imagesloaded.pkgd.min.js"></script>
+    <script defer src="js/scriptRefined.js"></script>
+    <script defer src="js/analytics.js"></script>
+    <script>
+      function openPreview(dialogName) {
+        $("#" + dialogName).dialog({
+          maxWidth: '600px',
+          width: 'auto'
+        });
+      }
+    </script>
+
+  </body>
+</html>
+
+
